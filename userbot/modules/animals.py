@@ -26,7 +26,7 @@ from userbot.events import man_cmd
 
 @bot.on(man_cmd(outgoing=True, pattern="shibe$"))
 async def shibe(event):
-    await event.edit("`Processing...`")
+    await event.edit("`Tunggu dulu cok...`")
     response = requests.get("https://shibe.online/api/shibes").json()
     if not response:
         await event.edit("**Tidak bisa menemukan Anjing.**")
@@ -37,7 +37,7 @@ async def shibe(event):
 
 @bot.on(man_cmd(outgoing=True, pattern="cat$"))
 async def cats(event):
-    await event.edit("`Processing...`")
+    await event.edit("`Tunggu dulu cok...`")
     response = requests.get("https://shibe.online/api/cats").json()
     if not response:
         await event.edit("**Tidak bisa menemukan kucing.**")
