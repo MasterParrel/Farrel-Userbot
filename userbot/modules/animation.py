@@ -470,9 +470,9 @@ async def _(event):
 @bot.on(man_cmd(outgoing=True, pattern=r"gombal(?: |$)(.*)"))
 async def _(typew):
     sleep(1)
-    await typew.edit("`Hai, I LOVE YOU 💞`")
+    await typew.edit("`Hai, SAYANG💞`")
     sleep(1)
-    await typew.edit("`I LOVE YOU SO MUCH!`")
+    await typew.edit("`I LOVE YOU `")
     sleep(1)
     await typew.edit("`I NEED YOU!`")
     sleep(1)
@@ -488,7 +488,7 @@ async def _(typew):
     sleep(1)
     await typew.edit("`I LOVEE YOUUUU💘💓`")
     sleep(1)
-    await typew.edit("`Tapi Bo'ong`")
+    await typew.edit("`Mau aja gua boong in😒`")
 
 
 # Create by myself @localheart
@@ -519,7 +519,7 @@ async def _(typew):
 @bot.on(man_cmd(outgoing=True, pattern=r"tembak(?: |$)(.*)"))
 async def _(typew):
     await typew.edit(
-        "_/﹋\\_\n" "(҂`_´)\n" "<,︻╦╤─ ҉\n" r"_/﹋\_" "\n**Mau Jadi Pacarku Gak?!**"
+        "_/﹋\\_\n" "(҂`_´)\n" "<,︻╦╤─ ҉\n" r"_/﹋\_" "\n**Mampus lu gua tembak !**"
     )
 
 
