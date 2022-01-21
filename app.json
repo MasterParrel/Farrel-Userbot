@@ -1,7 +1,7 @@
 {
-  "name": "Man-Userbot",
-  "description": "[Man-Userbot] userbot Telegram modular yang berjalan pada Python 3.9+",
-  "logo": "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg",
+  "name": "Farrel-Userbot",
+  "description": "[Farrel-Userbot] userbot Telegram modular yang berjalan pada Python 3.9+",
+  "logo": "https://telegra.ph/file/c2c5b27b3a23074473f71.jpg",
   "keywords": ["telegram", "userbot", "man-userbot", "modular", "python"],
   "repository": "https://github.com/MasterParrel/Man-Userbot",
   "stack": "container",
