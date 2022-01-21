@@ -420,6 +420,22 @@ async def _(typew):
     sleep(1)
     await typew.edit("`Bercanda`")
 
+@bot.on(man_cmd(outgoing=True, pattern=r"jelek(?: |$)(.*)"))
+async def _(typew):
+    await typew.edit("`Aku memang jelek`")
+    sleep(1)
+    await typew.edit("`Tetapi...`")
+    sleep(1)
+    await typew.edit("`Saya kaya...`")
+    sleep(1)
+    await typew.edit("`Saya memilki...`")
+    sleep(1)
+    await typew.edit("`Semua yang saya inginkan`")
+    sleep(1)
+    await typew.edit("`Tetapi semua itu hanyalah khayalan😊`")
+    
+                     
+                     
 
 # Create by myself @localheart
 
@@ -1239,6 +1255,8 @@ CMD_HELP.update(
     \nUsage: nangis.\
     \n\n`{cmd}ceritacinta` ; `{cmd}canda`\
     \nUsage: liat sendiri\
+    \n\n`{cmd}jelek`\
+    \nUsage: jelek.\
     \n\n`{cmd}santet`\
     \nUsage: Santet Online Buat Bercanda."
     }
