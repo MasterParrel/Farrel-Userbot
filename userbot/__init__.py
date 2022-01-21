@@ -140,7 +140,7 @@ SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
 GROUP = os.environ.get("GROUP", "SharingUserbot")
-CHANNEL = os.environ.get("CHANNEL", "Lunatic0de")
+CHANNEL = os.environ.get("CHANNEL", "anonymoushomech")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -195,7 +195,7 @@ ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "⚡️")
 INLINE_EMOJI = os.environ.get("INLINE_EMOJI", "✘")
 
 # Custom icon HELP
-ICON_HELP = os.environ.get("ICON_HELP", "❉")
+ICON_HELP = os.environ.get("ICON_HELP", "⚛︎")
 
 # Time & Date - Country and Time Zone
 COUNTRY = str(os.environ.get("COUNTRY", "ID"))
@@ -215,11 +215,11 @@ BOT_VER = os.environ.get("BOT_VER", "2.3.4")
 
 # Default .alive logo
 ALIVE_LOGO = (
-    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg"
+    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/c2c5b27b3a23074473f71.jpg"
 )
 
 INLINE_PIC = (
-    os.environ.get("INLINE_PIC") or "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg"
+    os.environ.get("INLINE_PIC") or "https://telegra.ph/file/c2c5b27b3a23074473f71.jpg"
 )
 
 # Picture For VCPLUGIN
